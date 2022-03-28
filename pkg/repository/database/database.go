@@ -16,7 +16,8 @@ import (
 var _db *db
 
 var (
-	ErrNotFound = errors.New("根据条件未找到值！")
+	ErrNotFound     = errors.New("根据条件未找到值！")
+	ErrInvaildState = errors.New("要更改的状态非法！")
 )
 
 type iDb interface {

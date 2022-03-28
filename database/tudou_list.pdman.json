@@ -46,9 +46,10 @@
             {
               "name": "state",
               "type": "Integer",
-              "remark": "target状态",
+              "remark": "target状态, 0: pending, 1: done, -1: fail",
               "chnname": "target状态",
-              "notNull": true
+              "notNull": true,
+              "defaultValue": "0"
             },
             {
               "name": "done_at",
