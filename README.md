@@ -14,3 +14,12 @@ tudou_list
 + 新建target实体和model，做repository层的作用，负责与database层与数据库的交互，后续拟采用server层实现具体业务逻辑。
 + 初步独立出handler包，后续实现路由功能。  
 
+&nbsp;
+---
+##### 22.03.25  
+老样子，分controler、service、repository三层。实现service层Target功能。  
+
+&nbsp;
+---
+##### 22.03.27  
+实现target查询、更新、插入功能。  
